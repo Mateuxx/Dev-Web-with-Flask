@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>PerfilFakePinterest</title>
-</head>
+<!-- temos que exportar essas coisas do homepage.html para fazer as coisas que queremos trazer dentro desse lugar -->
+{%extends "homepage.html"%}
+
+{% block body %}
 <body>
 <h1>
     Perfil do usuario: {{ user }}
@@ -14,3 +12,4 @@
 
 </body>
 </html>
+{% endblock %}
