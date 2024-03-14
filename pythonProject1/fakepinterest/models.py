@@ -1,10 +1,20 @@
 # criar a estrutura do banco de dados
 
-from fakepinterest import database
+from fakepinterest import database, login_manager
 from datetime import datetime
 
+# qual a classe que vai gerenciar a estrutura de logins
+# No nosso caso eh a classe Usuario
+from flask_login import UserMixin
+
+# carregar o usuario pelo seu id fazendo uma query 
+@login_manager.user_loader
+def load_usuario(id_usuario):
+    return Usuario.query.get(int(id_usuario))
+
+
 # criando cada classe como tabela semelhante ao ROOM do android
-class Usuario(database.Model):
+class Usuario(database.Model, UserMixin):
     id = database.Column(database.Integer, primary_key=True)
     username = database.Column(database.String, nullable = False)
     
