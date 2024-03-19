@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c298d4-7d3d-4805-8544-d101c66735d5" name="Changes" comment="Final - Começo das coisa de Login">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/.idea/pythonProject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/fakepinterest/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/fakepinterest/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/fakepinterest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/fakepinterest/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/fakepinterest/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Gerenciamento de Login e Cadastro - FakePinterest/fakepinterest/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +35,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/mateusnobrega/Desktop/Learning flask/FakePinterest - Conceitos iniciais de dev Flask"
   }
 }]]></component>
   <component name="SharedIndexes">

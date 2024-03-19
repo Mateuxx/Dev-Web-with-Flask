@@ -10,17 +10,28 @@
 </head>
 {% block body %}
 <body>
-    <h1>
-        FakePinterest - meu primeiro site no ar
-    </h1>
-    
-    <p>
-       agora vamos sei la qualquer coisa manos
-    </p>
+<h1>
+    FakePinterest - meu primeiro site no ar
+</h1>
 
-    <form method="POST">
-        
-    </form>
+<p>
+    agora vamos sei la qualquer coisa manos
+</p>
+
+{% block formulario %}
+<form method="POST">
+    {{ form.csrf_token }}
+
+    {{ form.email.label() }}
+    {{ form.email() }}
+
+    {{ form.senha.label() }}
+    {{ form.senha() }}
+
+    {{ form.botao_confirmacao() }}
+
+</form>
+{% endblock %}
 
 </body>
 {% endblock %}
