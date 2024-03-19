@@ -1,0 +1,15 @@
+<!-- temos que exportar essas coisas do homepage.html para fazer as coisas que queremos trazer dentro desse lugar -->
+{%extends "homepage.html"%}
+
+{% block body %}
+<body>
+<h1>
+    Perfil do usuario: {{ user }}
+</h1>
+
+<!--parra o url for com o nome da função que voce quer mandar-->
+<a href="{{ url_for('homepage') }}">Sair</a>
+
+</body>
+</html>
+{% endblock %}
