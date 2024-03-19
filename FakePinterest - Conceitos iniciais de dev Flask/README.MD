@@ -5,7 +5,7 @@
  - Parte inicial toda até inicio de formularios de login e cadrasto.
 
 ## Estrutura do Projeto:
-: A estrutura do projeto é organizada da seguinte forma:
+A estrutura do projeto é organizada da seguinte forma:
 - app.py: O ponto de entrada da aplicação Flask.
 - models.py: Contém os modelos de dados utilizados pelo SQLAlchemy.
 - routes.py: Define as rotas da aplicação.
