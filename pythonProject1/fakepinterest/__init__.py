@@ -28,6 +28,7 @@ bcrpyt = Bcrypt(app)
 login_manager = LoginManager(app)
 
 # qual o nome da view/routes que vai receber esse login - a tela que vais colocar o login, basicamente
+# pode se escolher outra view/route para receber esse login.
 login_manager.login_view = "homepage"
 
 
