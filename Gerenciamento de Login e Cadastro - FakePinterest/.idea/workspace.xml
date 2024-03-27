@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3c298d4-7d3d-4805-8544-d101c66735d5" name="Changes" comment="Final - Começo das coisa de Login">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
+    <list default="true" id="b3c298d4-7d3d-4805-8544-d101c66735d5" name="Changes" comment="#F564: Implementar o formulário de login na homepage e de criar conta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakepinterest/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakepinterest/templates/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/fakepinterest/templates/perfil.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +14,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="formulario-ate-agorra" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -33,11 +41,13 @@
   "keyToString": {
     "Python.__init__.executor": "Run",
     "Python.criar_banco.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.routes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/mateusnobrega/Desktop/Learning flask/Gerenciamento de Login e Cadastro - FakePinterest"
+    "last_opened_file_path": "/home/mateusnobrega/Desktop/incriveis-forms-app",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -93,11 +103,43 @@
       <option name="project" value="LOCAL" />
       <updated>1710874560541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="#F564: Implementar o formulário de login na homepage e de criar conta">
+      <option name="closed" value="true" />
+      <created>1710883097775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710883097775</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="formulario-ate-agorra" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final - Começo das coisa de Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final - Começo das coisa de Login" />
+    <MESSAGE value="#F564: Implementar o formulário de login na homepage e de criar conta" />
+    <option name="LAST_COMMIT_MESSAGE" value="#F564: Implementar o formulário de login na homepage e de criar conta" />
   </component>
 </project>
